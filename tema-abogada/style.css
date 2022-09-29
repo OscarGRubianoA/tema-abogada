@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    height: 6rem;
+    width:12em;
+
+}
+header a{
+    color: grey;
+    text-decoration: none;
+    padding: .8rem;
+}
+.active{
+    color: black;
+}
+.superactive{
+    color: blue;
+    border: 1px solid blue;
+}
+.superactive:hover{
+    color: white;
+    background-color: blue;
+}
+section{
+    width: 34rem;
+    height: 18rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.266);
+}
+.section1{
+    width:31rem;
+    height: 5rem;
+    margin: 1rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.section2{
+    width: 30rem;
+    height: 16rem;
+    margin: 3rem 1rem 2rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+.section2 a{
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: .6rem 5rem;
+    border-radius: 0 1rem 1rem 0;
+}
+.section2 p{
+    text-align: center;
+}
+.section2 img,a{
+    border: 1px 1px 2px 1px solid  black;
+}
+
+.container1{
+    background-image: url(./assets/1f8c8321f49de9b3716ec66248d4f7dc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 9rem 0 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    padding: 0px;
+    
+}
+
+main>p{
+    margin: 0 9rem 0 9rem;
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: .1rem;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14rem;
+    gap: 1rem;
+}
+article img{
+    height: 10rem;
+    width: 15rem;
+    
+}
+article p{
+    font-size: .8rem;
+}
